@@ -232,6 +232,7 @@ footer nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /*SERVICES*/
 .row{
     width: 90%;
@@ -258,6 +259,15 @@ footer nav a:hover{
 }
 
 /*TESTIMONIALS*/
+.testimonials .box{
+    background-color: #cedbe7;
+    border: none;
+}
+.testimonials .box .carousel-inner img{
+    width: 350px;
+    margin-left: -1%;
+
+}
 .phrase{
     margin-left: 60%; 
     margin-top: -2%; 
@@ -288,8 +298,8 @@ footer nav a:hover{
         height: 350px;
     }
     .intro h1{
-      font-size: 1.8rem;
-      line-height: 2.5rem;
+      font-size: 1.7rem;
+      line-height: 2.4rem;
     }
     .intro .animate__animated{
         margin-top: 10%;
@@ -305,13 +315,14 @@ footer nav a:hover{
         width: 45%;
         height: 50px;
         margin-top: 5%;
+        color: #4d7369;
     }
     .carousel-item p{
-        margin-top: -400px; 
-        font-size: 1rem;
+        margin-top: -410px; 
+        font-size: 0.9rem;
     }
     .carousel-inner .carousel-item .carousel-second-p{
-        margin-top: -18%
+        margin-top: -17%
     }
     #carouselExampleDark .carousel-inner .carousel-item .carousel-caption p{
         font-size: 1rem;
@@ -348,5 +359,15 @@ footer nav a:hover{
     .card-group{
         display: flex;
         flex-direction: column;
+    }
+    .about{
+    background-image: url(../images/about-mobile.jpg);
+    }
+    .testimonials .box .carousel-inner img{
+        width: 300px;
+    }
+    .terms-main .box{
+        height: 750px;
+        border: solid #b79882 2px;
     }
   }

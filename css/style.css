@@ -11,9 +11,14 @@ body{
     font-family: "adobe-garamond-pro", serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color:#149d9c;
+}
+.navbar-brand:hover{
+    color: #68c1bd;
 }
 .collapse ul li .nav-link:hover{
+    color: #68c1bd;
     font-weight: bold;
 }
 #navbarNav{
@@ -21,8 +26,8 @@ body{
 }
 .wsp-icon{
     position: fixed;
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
     line-height: 55px;
     bottom: 50px;
     right: 30px;
@@ -187,11 +192,12 @@ footer nav a:hover{
 
 /*ABOUT*/
 .box{
-    background-color: #cedbe7;
+    background-color: #f0e8db;
+    border-left: solid #b79882 2px;
+    border-right: solid #b79882 2px;
     width: 83%;
     margin-left: 8.5%;
     margin-top: 5%;
-    margin-bottom: 5%;
     font-size: 0.9rem;
 }
 .box .title{
@@ -221,7 +227,11 @@ footer nav a:hover{
 .name{
     font-size: 2rem;
 }
-
+.about{
+    background-image: url(../images/vector-celeste-oro-sol-luna-creciente-monoline-fondo-beige_53876-111624.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*SERVICES*/
 .row{
     width: 90%;
@@ -232,6 +242,7 @@ footer nav a:hover{
 /*BLOG*/
 .blog{
    margin-bottom: 5%;
+   margin-top: 5%;
 }
 .blog .card .row .col-md-4, .col-md-8, .card-body, .card-title, .card-text, ol, .blog li {
     background-color:  #e2f6cd;;
@@ -267,8 +278,8 @@ footer nav a:hover{
     font-size: 1rem;
     background-color: #e2f6cd
 }
-.terms-main#wa{
-    background-color: pink;
+.terms-main .box{
+    height: 500px;
 }
 
 /*MEDIA QUERY*/
@@ -287,8 +298,8 @@ footer nav a:hover{
         height: 350px;
     }
     .wsp-icon{
-        width: 45px;
-        height: 45px;
+        width: 65px;
+        height: 65px;
     }
     .card-footer button{
         width: 45%;

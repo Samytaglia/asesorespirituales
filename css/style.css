@@ -290,6 +290,7 @@ footer nav a:hover{
 }
 .terms-main .box{
     height: 500px;
+    border: solid #b79882 2px;
 }
 
 /*MEDIA QUERY*/

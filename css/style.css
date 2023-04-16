@@ -1,16 +1,16 @@
-*{
-/*     margin: 0;
+/* *{
+    margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Montserrat', sans-serif;  */
-}
+    
+} */
 body{
     background-color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
 }
 .navbar-brand{
     font-family: "adobe-garamond-pro", serif;
-    font-weight: 400;
+
     font-style: italic;
     font-size: 1.5rem;
     color:#149d9c;
@@ -350,8 +350,8 @@ footer nav a:hover{
         font-size: 1rem;
     }
     .box .name{
-        font-size: 1.3rem;
-        margin-left: 10%;
+        font-size: 1.2rem;
+        margin-left: 11%;
     }
     .phrase{
         margin-left: 10%; 
@@ -365,13 +365,14 @@ footer nav a:hover{
     .about{
         background-image: url(../images/about-mobile.jpg);
         background-size: cover;
+        background-position: center;
         margin-bottom: 2%;
     }
     .testimonials .box .carousel-inner img{
         width: 300px;
     }
     .terms-main .box{
-        height: 850px;
+        height: 900px;
         border: solid #b79882 2px;
     }
   }

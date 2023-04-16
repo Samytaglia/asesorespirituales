@@ -1,11 +1,12 @@
 *{
-    margin: 0;
+/*     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;  */
 }
 body{
     background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar-brand{
     font-family: "adobe-garamond-pro", serif;
